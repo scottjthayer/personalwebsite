@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+  width: 100%;
+  height: 100%;
+  font-family: 'Neuton', serif;
+  font-size: 1.1rem; 
+}
+
+#grad
+{
+  background-image: linear-gradient(to top, #a3c1ad,#5f9ea0, #317873 , #5f9ea0, 	#a3c1ad)
+}
+.navbar {
+  overflow: hidden;
+  background-color: 	#a3c1ad;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  
+  background-size: 100% auto;
+  font-weight: bolder;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #2b4840;
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #317873;
+  color: black;
+}
+
+.main {
+  padding-left: 0.5rem;
+  margin-top: 3rem; /* Add a top margin to avoid content overlay */
+  margin-left: 0rem;
+  background-size: 100% auto;
+  border-top:thick black;
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  height:100%;
+}
+
+.footer {
+  color:#317873;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: left;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 1.25rem;
+  background-color: #a3c1ad;
+}
+.footer a:hover
+{
+  background: #317873;
+  color: black;
+}
+.footer a:link
+{
+  color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-child {
+  flex-grow: 1;
+  width: 97%;
+}  
+.pFont
+{
+  font-size: 1.55rem;
+}
+
+.centerPortfolio
+{
+  text-align: center;
+}
+
+
+
